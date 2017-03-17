@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  AWBSwitch
+//  AKSwitch
 //
 //  Created by Arun Kumar Pattanayak on 17/03/17.
 //  Copyright © 2017 Arun Kumar Pattanayak. All rights reserved.
@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var switchBtn : AWBSwitch?
+    var switchBtn : AKSwitch?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         let screenFrame  = UIScreen.main.bounds
         
         
-        switchBtn = AWBSwitch(size: .normal, style: .defaultStyle, state: .off)
+        switchBtn = AKSwitch(size: .normal, style: .defaultStyle, state: .off)
         switchBtn?.center = CGPoint(x: CGFloat(screenFrame.size.width * 6 / 7), y: CGFloat(45))
         switchBtn?.addTarget(self, action: #selector(self.stateChanged), for: .valueChanged)
         self.view.addSubview(switchBtn!)

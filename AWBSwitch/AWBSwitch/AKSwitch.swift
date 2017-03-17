@@ -1,6 +1,6 @@
 //
-//  AWBSwitch.swift
-//  AWBSwitch
+//  AKSwitch.swift
+//  AKSwitch
 //
 //  Created by Arun Kumar Pattanayak on 17/03/17.
 //  Copyright © 2017 Arun Kumar Pattanayak. All rights reserved.
@@ -28,7 +28,7 @@ protocol SwitchDelegate: NSObjectProtocol {
     func switchStateChanged(_ currentState: SwitchState)
 }
 
-class AWBSwitch: UIControl {
+class AKSwitch: UIControl {
     weak var delegate: SwitchDelegate?
     var isOn: Bool = false
     var isSwitchEnabled: Bool = false

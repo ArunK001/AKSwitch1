@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AWBSwitch
+//  AKSwitch
 //
 //  Created by Arun Kumar Pattanayak on 17/03/17.
 //  Copyright © 2017 Arun Kumar Pattanayak. All rights reserved.
